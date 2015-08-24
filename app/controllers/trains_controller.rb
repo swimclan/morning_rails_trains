@@ -1,7 +1,7 @@
 class TrainsController < ApplicationController
 
 	def show
-		render template: "trains/#{params[train]}"
+		render template: "trains/index"
 	end
-	
+
 end
